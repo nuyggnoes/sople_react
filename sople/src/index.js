@@ -11,6 +11,8 @@ import NotificationList from "./chapter_06/NotificationList";
 // import Counter from "./chapter_07/Counter";
 // import TextInputWithFocusButton from "./chapter_07/TextInputWithFocusButton";
 import Accommodate from "./chapter_07/Accommodate";
+import Toggle from "./chapter_08/Toggle";
+import ConfirmButton from "./chapter_08/ConfirmButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +28,10 @@ root.render(
     <hr />
     <h1>Chapter_07</h1>
     <Accommodate />
+    <hr />
+    <h1>Chapter_08</h1>
+    <Toggle />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
