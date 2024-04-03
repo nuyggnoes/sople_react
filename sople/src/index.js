@@ -25,6 +25,7 @@ import SignUp from "./chapter_11/SignUp";
 import Calculator from "./chapter_12/Calculator";
 import WelcomeDialog from "./chapter_13/FancyBorder";
 import ProfileCard from "./chapter_13/ProfileCard";
+import DarkOrLight from "./chapter_14/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -69,6 +70,9 @@ root.render(
     <WelcomeDialog />
     <br />
     <ProfileCard />
+    <hr />
+    <h1>Chapter_14 - 컨텍스트</h1>
+    <DarkOrLight />
   </React.StrictMode>
 );
 
