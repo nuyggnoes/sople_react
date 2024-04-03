@@ -26,6 +26,8 @@ import Calculator from "./chapter_12/Calculator";
 import WelcomeDialog from "./chapter_13/FancyBorder";
 import ProfileCard from "./chapter_13/ProfileCard";
 import DarkOrLight from "./chapter_14/DarkOrLight";
+import MainPage from "./chapter_15/StyledComponent";
+import Blocks from "./chapter_15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -73,6 +75,11 @@ root.render(
     <hr />
     <h1>Chapter_14 - 컨텍스트</h1>
     <DarkOrLight />
+    <hr />
+    <h1>Chpater_15 - 스타일링(styled-component)</h1>
+    <MainPage />
+    <br />
+    <Blocks />
   </React.StrictMode>
 );
 
