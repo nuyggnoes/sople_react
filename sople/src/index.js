@@ -16,6 +16,7 @@ import ConfirmButton from "./chapter_08/ConfirmButton";
 import LoginControl from "./chapter_09/ElementArg";
 import MailBox from "./chapter_09/MailBox";
 import LandingPage from "./chapter_09/LandingPage";
+import AttendanceBook from "./chapter_10/AteendanceBoox";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -41,6 +42,9 @@ root.render(
     <MailBox unreadMessages={4} />
     <br />
     <LandingPage />
+    <hr />
+    <h1>Chapter_10</h1>
+    <AttendanceBook />
   </React.StrictMode>
 );
 
