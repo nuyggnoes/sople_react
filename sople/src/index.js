@@ -17,6 +17,11 @@ import LoginControl from "./chapter_09/ElementArg";
 import MailBox from "./chapter_09/MailBox";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendanceBook from "./chapter_10/AteendanceBoox";
+import NameForm from "./chapter_11/NameForm";
+import RequestForm from "./chapter_11/RequestForm";
+import SelectForm from "./chapter_11/SelectForm";
+import Reservation from "./chapter_11/Reservation";
+import SignUp from "./chapter_11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,7 +33,7 @@ root.render(
     <CommentList />
     <hr />
     <h1>Chapter_06</h1>
-    <NotificationList />
+    {/* <NotificationList /> */}
     <hr />
     <h1>Chapter_07</h1>
     <Accommodate />
@@ -45,6 +50,14 @@ root.render(
     <hr />
     <h1>Chapter_10</h1>
     <AttendanceBook />
+    <hr />
+    <h1>Chapter_11</h1>
+    <NameForm />
+    <RequestForm />
+    <SelectForm />
+    <Reservation />
+    <br />
+    <SignUp />
   </React.StrictMode>
 );
 
