@@ -13,6 +13,9 @@ import NotificationList from "./chapter_06/NotificationList";
 import Accommodate from "./chapter_07/Accommodate";
 import Toggle from "./chapter_08/Toggle";
 import ConfirmButton from "./chapter_08/ConfirmButton";
+import LoginControl from "./chapter_09/ElementArg";
+import MailBox from "./chapter_09/MailBox";
+import LandingPage from "./chapter_09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,6 +35,12 @@ root.render(
     <h1>Chapter_08</h1>
     <Toggle />
     <ConfirmButton />
+    <hr />
+    <h1>Chapter_09</h1>
+    <LoginControl />
+    <MailBox unreadMessages={4} />
+    <br />
+    <LandingPage />
   </React.StrictMode>
 );
 
