@@ -23,6 +23,8 @@ import SelectForm from "./chapter_11/SelectForm";
 import Reservation from "./chapter_11/Reservation";
 import SignUp from "./chapter_11/SignUp";
 import Calculator from "./chapter_12/Calculator";
+import WelcomeDialog from "./chapter_13/FancyBorder";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -60,8 +62,13 @@ root.render(
     <br />
     <SignUp />
     <hr />
-    <h1>Chapter_12</h1>
+    <h1>Chapter_12 - state 끌어올리기(lifting up)</h1>
     <Calculator />
+    <hr />
+    <h1>Chapter_13 - 합성 vs 상속</h1>
+    <WelcomeDialog />
+    <br />
+    <ProfileCard />
   </React.StrictMode>
 );
 
