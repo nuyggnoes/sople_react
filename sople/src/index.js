@@ -22,6 +22,7 @@ import RequestForm from "./chapter_11/RequestForm";
 import SelectForm from "./chapter_11/SelectForm";
 import Reservation from "./chapter_11/Reservation";
 import SignUp from "./chapter_11/SignUp";
+import Calculator from "./chapter_12/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -58,6 +59,9 @@ root.render(
     <Reservation />
     <br />
     <SignUp />
+    <hr />
+    <h1>Chapter_12</h1>
+    <Calculator />
   </React.StrictMode>
 );
 
