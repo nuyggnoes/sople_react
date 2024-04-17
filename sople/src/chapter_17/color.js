@@ -1,3 +1,4 @@
 export const theme = {
-  red: "#FF385C",
+  mainRed: "#FF385C",
+  iconGrey: "#6A6A6A",
 };
