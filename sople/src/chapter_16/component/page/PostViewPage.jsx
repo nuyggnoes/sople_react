@@ -8,6 +8,7 @@ import data from "../../../data.json";
 
 const Wrapper = styled.div`
     padding: 16px;
+    margin-top: 100px;
     width: calc(100%-32px);
     display: flex;
     flex-direction: column;

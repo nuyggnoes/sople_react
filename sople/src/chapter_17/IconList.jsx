@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 function IconList() {
     return (
         <Wrapper>
-            hi
+            
         </Wrapper>
     );
 }

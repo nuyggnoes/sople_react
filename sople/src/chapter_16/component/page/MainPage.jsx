@@ -6,6 +6,7 @@ import Button from "../ui/Button";
 import data from "../../../data.json";
 
 const Wrapper = styled.div`
+    margin-top: 100px;
     padding: 16px;
     width: calc(100% - 32px);
     display: flex;

@@ -15,6 +15,7 @@ const MainContainer = styled.div`
     border: 1px solid black;
     width: 100%;
     position: fixed;
+    top: 0;
 `;
 
 const FirstContainer = styled.div`
