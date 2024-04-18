@@ -26,7 +26,7 @@ const FirstContainer = styled.div`
     width: 100%;
     height: 80px;
     border-bottom: 1px solid #DDDDDD;
-    padding: 15px 35px;
+    padding: 15px 80px;
     margin: auto;
 `;
 
@@ -42,7 +42,7 @@ const ShadowWrapper = styled.div`
     padding: 10px 20px;
     border-radius: 25px;
     &:hover{
-        background-color: #F5F5F5;
+        background-color: #dedede;
     }
 `;
 
