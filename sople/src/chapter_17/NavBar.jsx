@@ -68,15 +68,18 @@ const SecondContainer = styled.div`
     justify-content: center;
 `;
 
-function NavBar() {
+function NavBar(props) {
+    const { dumy } = props;
+    console.log(dumy);
     return (
         <MainContainer>
             <FirstContainer>
                 <FaAirbnb size={38} color={theme.mainRed} />
-                <TextInput />
+                <TextInput/>
                 <Container1>
                     <ShadowWrapper>
-                        Airbnb your space.
+                        {/* Airbnb your space. */}
+                        {dumy ? dumy : 'Airbnb your space.'}
                     </ShadowWrapper>
                     <ShadowWrapper>
                         <TbWorld size={25}/>

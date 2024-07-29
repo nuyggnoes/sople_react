@@ -37,9 +37,10 @@ const Wrapper = styled.div`
 
 
 function TextInput() {
+    
     return (
         <Container>
-            <StyledTextInput placeholder="Search"/>
+            <StyledTextInput placeholder="Search" />
             <Wrapper>
                 <FaSearch color="white"/>
             </Wrapper>
